@@ -1,0 +1,179 @@
+/* Estilo general */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #00549e;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    color: #006cd1;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Página principal */
+.description {
+    text-align: center;
+    background: url('escuela.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.description h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Alumnos */
+.students ul {
+    list-style: none;
+    padding: 0;
+}
+
+.students h3 {
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-left: 5px solid #4a90e2;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.students ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    transition: all 0.2s ease-in-out;
+}
+
+.students ul li:hover {
+    background-color: #f4f4f9;
+    color: #4a90e2;
+}
+
+/* Calificaciones */
+.grades table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grades th, .grades td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.grades th {
+    background-color: #5399f5;
+    color: white;
+    font-weight: bold;
+}
+
+.grades tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Transiciones globales */
+* {
+    transition: all 0.3s ease;
+}
+/* Imágenes */
+.images {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.images img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+}
+
+/* Artículos de grupo */
+.group {
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
